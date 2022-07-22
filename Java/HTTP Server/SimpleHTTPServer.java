@@ -1,3 +1,7 @@
+// https://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html#axzz7ZlKhj5Cv
+// https://medium.com/javarevisited/fundamentals-of-socket-programming-in-java-bc9acc30eaf4
+
+
 import java.util.*;
 // import java.util.Date;
 import java.io.*;
