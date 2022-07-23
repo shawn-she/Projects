@@ -5,7 +5,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # AF_INET = IPv4 address; SOCK_STREAM = TCP Packets
 
-host = "192.168.1.27"
+host = "127.0.0.1"
 port = 443
 
 def portscanner(port):
