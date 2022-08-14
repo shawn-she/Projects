@@ -1,6 +1,10 @@
+// https://javarevisited.blogspot.com/2015/06/how-to-create-http-server-in-java-serversocket-example.html#axzz7ZlKhj5Cv
+// https://medium.com/javarevisited/fundamentals-of-socket-programming-in-java-bc9acc30eaf4
+
+
 import java.util.*;
 // import java.util.Date;
-import java.io.*;
+// import java.io.*;
 // import java.io.IOException;
 // import java.io.BufferedReader;
 // import java.io.InputStreamReader;
@@ -30,7 +34,9 @@ public class SimpleHTTPServer{
                 Date today = new Date();
                 String HTTPResponse = "HTTP/1.1 200 OK\r\n\r\n" + today;
                 client.getOutputStream().write(HTTPResponse.getBytes("UTF-8"));
+
             }
+            server.close();
         }
     }
 
